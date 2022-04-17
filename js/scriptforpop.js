@@ -12,6 +12,22 @@
 
 	var gif = getGif();
 
+	function sound(src) {
+		this.sound = document.createElement("audio");
+		this.sound.src = src;
+		this.sound.setAttribute("preload", "auto");
+		this.sound.setAttribute("controls", "none");
+		this.sound.style.display = "none";
+		document.body.appendChild(this.sound);
+		this.play = function(){
+			this.sound.play();
+		}
+		this.stop = function(){
+			this.sound.pause();
+		}    
+	}
+	
+
 	// Preload all the gif images.
 	var image = [];
 
@@ -23,10 +39,14 @@
 		return new Promise(resolve => setTimeout(resolve, ms));
 	}
 	// Change the image to .gif when clicked and vice versa.
+	var mySound;
+	mySound = new sound("../audio/123.mp3");
 	var score = 0;
 	$('figure').on('click', async function() {
+		mySound.play();
 		score += 1;
 		document.getElementById("score").innerHTML = score
+		
 		var $this   = $(this),
 				$index  = $this.index(),
 				$img    = $this.children('img'),
