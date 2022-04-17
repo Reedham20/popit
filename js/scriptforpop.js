@@ -23,8 +23,10 @@
 		return new Promise(resolve => setTimeout(resolve, ms));
 	}
 	// Change the image to .gif when clicked and vice versa.
+	var score = 0;
 	$('figure').on('click', async function() {
-
+		score += 1;
+		document.getElementById("score").innerHTML = score
 		var $this   = $(this),
 				$index  = $this.index(),
 				$img    = $this.children('img'),
@@ -36,72 +38,72 @@
 			$img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
 			await sleep(600);
 			if($imgExt[0] === 'img/1') {
-				$this.attr('style','top:1000px; left:80px')
+				$this.attr('style','top: 900px; left:80px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim1 infinite;')
 			}else if($imgExt[0] === 'img/2') {
-				$this.attr('style','top:1000px; left:40px')
+				$this.attr('style','top: 900px; left:40px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim2 infinite;')
 			}	
 			else if($imgExt[0] === 'img/3') {
-				$this.attr('style','top:1000px; left:300px')
+				$this.attr('style','top: 900px; left:300px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim3 infinite;')
 			}	
 			else if($imgExt[0] === 'img/4') {
-				$this.attr('style','top:1000px; left:120px')
+				$this.attr('style','top: 900px; left:120px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim4 infinite;')
 			}	
 			else if($imgExt[0] === 'img/5') {
-				$this.attr('style','top:1000px; left:160px')
+				$this.attr('style','top: 900px; left:160px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim5 infinite;')
 			}	
 			else if($imgExt[0] === 'img/6') {
-				$this.attr('style','top:1000px; left:240px')
+				$this.attr('style','top: 900px; left:240px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim6 infinite;')
 			}	
 			else if($imgExt[0] === 'img/7') {
-				$this.attr('style','top:1000px; left:180px')
+				$this.attr('style','top: 900px; left:180px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim7 infinite;')
 			}	
 			else if($imgExt[0] === 'img/8') {
-				$this.attr('style','top:1000px; left:270px')
+				$this.attr('style','top: 900px; left:270px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim8 infinite;')
 			}	
 			else if($imgExt[0] === 'img/9') {
-				$this.attr('style','top:1000px; left:20px')
+				$this.attr('style','top: 900px; left:20px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim9 infinite;')
 			}	
 			else if($imgExt[0] === 'img/10') {
-				$this.attr('style','top:1000px; left:400px')
+				$this.attr('style','top: 900px; left:400px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim10 infinite;')
 			}	
 			else if($imgExt[0] === 'img/11') {
-				$this.attr('style','top:1000px; left:480px')
+				$this.attr('style','top: 900px; left:480px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim11 infinite;')
 			}	
 			else if($imgExt[0] === 'img/12') {
-				$this.attr('style','top:1000px; left:440px')
+				$this.attr('style','top: 900px; left:440px')
 			$img.attr('src', $imgSrc).attr('data-alt', $img.data('alt'))
 			await sleep(5);
 				$this.attr('style','  animation: linear 15s anim12 infinite;')

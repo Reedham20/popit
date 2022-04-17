@@ -1,14 +1,31 @@
 body {
   background-color: #0c0e0c;
   width: 100%;
-  overflow: auto;
 }
+html, body {margin: 0; height: 100%; overflow: hidden}
 .pop {
   max-width: 100%;
   height: auto;
   vertical-align: top;
   -webkit-transition: opacity 350ms;
           transition: opacity 350ms;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-family: 'Over the Rainbow', cursive;
+  color: antiquewhite;
+  font-size: 5rem;
+}
+
+.byme {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5rem;
 }
 
 figure {
@@ -448,4 +465,19 @@ figure {
     transform: rotate(180deg);
     left:657px;
   }
+}
+
+.score {
+  font-family: 'Over the Rainbow', cursive;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  bottom: 20rem;
+  left: 0%;
+  color:antiquewhite;
+  font-size: 10rem;
+  z-index: -5;
 }
