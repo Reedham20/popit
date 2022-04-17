@@ -1,0 +1,451 @@
+body {
+  background-color: #0c0e0c;
+  width: 100%;
+  overflow: auto;
+}
+.pop {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+  -webkit-transition: opacity 350ms;
+          transition: opacity 350ms;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.shape{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 950px;
+  transition: top linear 20s;
+     
+}
+.s1 {
+  left:80px;
+}
+.s2{
+  left:40px;
+}
+.s3 {
+  left:300px;
+}
+.s4 {
+  left:120px;
+}
+.s5 {
+  left:160px;
+}
+.s6 {
+  left:240px;
+}
+.s7 {
+  left:180px;
+}
+.s8 {
+  left:270px;
+}
+.s9 {
+  left:20px;
+}
+.s10 {
+  left:400px;
+}
+.s12 {
+  left:480px;
+}
+.s11 {
+  left:440px;
+}
+
+@keyframes anim1 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:450px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:490px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:640px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:300px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:700px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:846px;
+  }
+}
+@keyframes anim2 {
+  0% {
+    top: 900px;
+    transform: rotate(12deg);
+    left:230px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(48deg);
+    left:495px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(84deg);
+    left:390px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(120deg);
+    left:100px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(156deg);
+    left:270px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate( 192deg);
+    left:670px;
+  }
+}
+@keyframes anim3 {
+  0% {
+    top: 900px;
+    transform: rotate(18deg);
+    left:490px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(54deg);
+    left:300px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(90deg);
+    left:800px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(126deg);
+    left:780px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(162deg);
+    left:620px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(198deg);
+    left:492px;
+  }
+}
+@keyframes anim4 {
+  0% {
+    top: 900px;
+    transform: rotate(10deg);
+    left:450px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(46deg);
+    left:290px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(82deg);
+    left:400px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(118deg);
+    left:300px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(154deg);
+    left:670px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(190deg);
+    left:600px;
+  }
+}
+@keyframes anim5 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:247px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:390px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:786px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:276px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:234px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:36px;
+  }
+}
+@keyframes anim6 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:115px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:341px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:447px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:182px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:546px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:490px;
+  }
+}
+@keyframes anim7 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:464px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:410px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:452px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:377px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:466px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:365px;
+  }
+}
+@keyframes anim8 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:706px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:563px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:89px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:262px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:364px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:221px;
+  }
+}
+@keyframes anim9 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:314px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:656px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:626px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:30px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:760px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:494px;
+  }
+}
+@keyframes anim10 {
+  0% {
+    top: 900x;
+    transform: rotate(0deg);
+    left:496px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:235px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:651px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:727px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:168px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:819px;
+  }
+}
+@keyframes anim11 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:515px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:475px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:746px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:300px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:111px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:400px;
+  }
+}
+@keyframes anim12 {
+  0% {
+    top: 900px;
+    transform: rotate(0deg);
+    left:400px;
+  }
+  20% {
+    top: 700px;
+    transform: rotate(36deg);
+    left:276px;
+  }
+  40% {
+    top: 500px;
+    transform: rotate(72deg);
+    left:547px;
+  }
+  60% {
+    top: 300px;
+    transform: rotate(108deg);
+    left:175px;
+  }
+  80% {
+    top: 100px;
+    transform: rotate(144deg);
+    left:329px;
+  }
+  100% {
+    top: -100px;
+    transform: rotate(180deg);
+    left:657px;
+  }
+}
