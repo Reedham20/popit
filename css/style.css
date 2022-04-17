@@ -26,6 +26,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 .byme {
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5rem;
+  color: beige;
 }
 
 figure {
@@ -84,7 +85,7 @@ figure {
 
 @keyframes anim1 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:450px;
   }
@@ -116,7 +117,7 @@ figure {
 }
 @keyframes anim2 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(12deg);
     left:230px;
   }
@@ -148,7 +149,7 @@ figure {
 }
 @keyframes anim3 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(18deg);
     left:490px;
   }
@@ -180,7 +181,7 @@ figure {
 }
 @keyframes anim4 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(10deg);
     left:450px;
   }
@@ -212,7 +213,7 @@ figure {
 }
 @keyframes anim5 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:247px;
   }
@@ -244,7 +245,7 @@ figure {
 }
 @keyframes anim6 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:115px;
   }
@@ -276,7 +277,7 @@ figure {
 }
 @keyframes anim7 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:464px;
   }
@@ -308,7 +309,7 @@ figure {
 }
 @keyframes anim8 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:706px;
   }
@@ -340,7 +341,7 @@ figure {
 }
 @keyframes anim9 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:314px;
   }
@@ -404,7 +405,7 @@ figure {
 }
 @keyframes anim11 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:515px;
   }
@@ -436,7 +437,7 @@ figure {
 }
 @keyframes anim12 {
   0% {
-    top: 900px;
+     top: 1200px;
     transform: rotate(0deg);
     left:400px;
   }
