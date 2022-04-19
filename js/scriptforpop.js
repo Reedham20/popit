@@ -40,7 +40,7 @@
 	}
 	// Change the image to .gif when clicked and vice versa.
 	var mySound;
-	mySound = new sound("Reegames/Pop-it/audio/123.mp3");
+	mySound = new sound("audio/123.mp3");
 	var score = 0;
 	$('figure').on('click', async function() {
 		mySound.play();
